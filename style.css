@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #cdcdcd;
+}
+header {
+  background-color: rgb(0, 0, 0);
+  height: 76px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+header > p {
+  background-color: #000;
+}
+.form {
+  display: flex;
+  padding: 10px;
+}
+.form > input {
+  flex: 4;
+  height: 65px;
+  margin: 20px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+.form > button {
+  flex: 1;
+  height: 65px;
+  margin: 20px;
+  background-color: #000;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.btn-style {
+  height: 66px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  background: #000;
+  width: 14%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 15px;
+}
+
+.student-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: 10px;
+}
+table {
+  width: 95%;
+  margin: 20px;
+}
+
+table,
+td,
+th {
+  border: 2px solid black;
+  border-collapse: collapse;
+  height: 65px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.femaleTab {
+    width: 95%;
+    margin: 20px;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
